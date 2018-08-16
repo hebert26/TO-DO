@@ -1,9 +1,7 @@
-﻿using System;
-using CoreAppDemo.Data.Model;
+﻿using CoreAppDemo.Data;
 using CoreAppDemo.Services;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
-using Microsoft.AspNetCore.SpaServices.AngularCli;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Logging;
@@ -21,6 +19,8 @@ namespace CoreAppDemo
                 configuration.RootPath = "wwwroot";
             });
             services.AddTransient<ITodoService, TodoService>();
+
+            //Just for test purpose
             services.AddDbContext<ApiContext>(opt => opt.UseInMemoryDatabase("TodoDb"));
         }
 

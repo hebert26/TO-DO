@@ -1,6 +1,7 @@
-﻿using Microsoft.EntityFrameworkCore;
+﻿using CoreAppDemo.Data.Model;
+using Microsoft.EntityFrameworkCore;
 
-namespace CoreAppDemo.Data.Model
+namespace CoreAppDemo.Data
 {
     public class ApiContext : DbContext
     {

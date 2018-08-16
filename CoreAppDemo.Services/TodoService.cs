@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Threading.Tasks;
+using CoreAppDemo.Data;
 using CoreAppDemo.Data.Model;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.ChangeTracking;
@@ -50,7 +51,7 @@ namespace CoreAppDemo.Services
 
         public async Task<int> RemoveAsync(int id)
         {
-            Todo todo = await _context.Todos.FirstOrDefaultAsync(t => t.Id == 1);
+            Todo todo = await _context.Todos.FirstOrDefaultAsync(t => t.Id == id);
             if (todo != null)
             {
                 _context.Todos.Remove(todo);
