@@ -1,0 +1,8 @@
+/* You can add global styles to this file, and also import other style files */
+
+@import '~todomvc-common/base.css';
+@import '~todomvc-app-css/index.css';
+body {
+  background-image: url("http://www.mosaic-online-systems.com/content/backgrounds/dockethub_background.png");
+  background-color: #2578e4ef;
+}
