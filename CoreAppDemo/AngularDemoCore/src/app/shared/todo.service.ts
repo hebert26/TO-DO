@@ -4,6 +4,7 @@ import { Todo } from "../model/models";
 import { Observable } from "../../../node_modules/rxjs";
 import { HandleError, HttpErrorHandler } from "../http-error-handler.service";
 import { catchError } from 'rxjs/operators';
+
 //Accept: application/json;odata=verbose;
 const httpOptions = {
     headers: new HttpHeaders({

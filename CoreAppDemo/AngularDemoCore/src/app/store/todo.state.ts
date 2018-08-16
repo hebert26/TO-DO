@@ -3,11 +3,6 @@ import { Todo } from '../model/models';
 import { AddTodo, PopulateTodos, ToggleTodo, DeleteTodo, UpdateTodo, ClearCompleted, CompletedAll, TodoFromServer } from './todo.actions';
 import { SetFilter } from './todo.filter';
 import { TodoService } from '../shared/todo.service';
-import { isNullOrUndefined } from 'util';
-
-
-
-
 
 export class TodoStateModel {
     filter: string;
@@ -24,11 +19,9 @@ export class TodoStateModel {
 
 export class TodoState {
 
-
     constructor(public todoService: TodoService) {
-
-
     }
+
     @Selector()
     static getTodos(state: TodoStateModel) {
         return state.todos;
@@ -38,8 +31,6 @@ export class TodoState {
     static getFilter(state: TodoStateModel) {
         return state.filter;
     }
-
-
 
     @Selector()
     static getVisibleTodos(state: TodoStateModel) {
@@ -161,14 +152,4 @@ export class TodoState {
             filter: payload
         });
     }
-}
-
-function getTodoId(payload: number) {
-    let todo: any = payload;
-    if (isNullOrUndefined(todo.id)) {
-        todo = {
-            id: payload
-        };
-    }
-    return todo;
-}
+} 
