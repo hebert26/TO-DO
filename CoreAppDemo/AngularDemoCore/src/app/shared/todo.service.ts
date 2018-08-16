@@ -44,4 +44,19 @@ export class TodoService {
                 catchError(this.handleError('UpdateTodo', todo))
             );
     }
+
+    /** toggle a new todo */
+    toggle(todo: Todo): Observable<Todo> {
+        return this.http.put<Todo>(`${this.apiUrl}toggle`, todo, httpOptions)
+            .pipe(
+                catchError(this.handleError('toggle', null))
+            );
+    }
+    /** remove a new todo */
+    remove(todo: Todo): Observable<Todo> {
+        return this.http.put<Todo>(`${this.apiUrl}remove`, todo, httpOptions)
+            .pipe(
+                catchError(this.handleError('remove', null))
+            );
+    }
 }

@@ -8,6 +8,12 @@ namespace CoreAppDemo.Services
     {
         Task<List<Todo>> AllAsync();
 
-        int Add(Todo todo);
+        Task<int> AddAsync(Todo todo);
+
+        Task<int> ToggleAsync(int id);
+
+        Task<int> RemoveAsync(int id);
+
+        Task<Todo> FindByIdAsync(int id);
     }
 }

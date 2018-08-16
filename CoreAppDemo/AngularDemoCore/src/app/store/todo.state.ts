@@ -3,6 +3,7 @@ import { Todo } from '../model/models';
 import { AddTodo, PopulateTodos, ToggleTodo, DeleteTodo, UpdateTodo, ClearCompleted, CompletedAll, TodoFromServer } from './todo.actions';
 import { SetFilter } from './todo.filter';
 import { TodoService } from '../shared/todo.service';
+import { isNullOrUndefined } from 'util';
 
 
 
@@ -83,8 +84,6 @@ export class TodoState {
                 //TODO:HG Add logic to display error to users
                 console.log(error);
             });
-
-
     }
 
     @Action(PopulateTodos)
@@ -96,21 +95,35 @@ export class TodoState {
 
     @Action(ToggleTodo)
     toggle({ getState, patchState }: StateContext<TodoStateModel>, { payload }: ToggleTodo) {
-        patchState({
-            todos: getState().todos.map(td => {
-                if (td.id === payload) {
-                    td.completed = !td.completed;
-                }
-                return td;
+        let todo: any = getState().todos.filter(td => td.id == payload);
+        this.todoService.toggle(todo[0])
+            .subscribe((result: any) => {
+                patchState({
+                    todos: getState().todos.map(td => {
+                        if (td.id === payload) {
+                            td.completed = !td.completed;
+                        }
+                        return td;
+                    })
+                });
+            }, error => {
+                //TODO:HG Add logic to display error to users
+                console.log(error);
             })
-        });
     }
 
     @Action(DeleteTodo)
     delete({ getState, patchState }: StateContext<TodoStateModel>, { payload }: DeleteTodo) {
-        patchState({
-            todos: getState().todos.filter(td => td.id !== payload)
-        });
+        let todo: any = getState().todos.filter(td => td.id == payload);
+        this.todoService.remove(todo[0])
+            .subscribe((result: any) => {
+                patchState({
+                    todos: getState().todos.filter(td => td.id !== payload)
+                });
+            }, error => {
+                //TODO:HG Add logic to display error to users
+                console.log(error);
+            })
     }
 
     @Action(UpdateTodo)
@@ -148,4 +161,14 @@ export class TodoState {
             filter: payload
         });
     }
+}
+
+function getTodoId(payload: number) {
+    let todo: any = payload;
+    if (isNullOrUndefined(todo.id)) {
+        todo = {
+            id: payload
+        };
+    }
+    return todo;
 }
