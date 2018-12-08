@@ -1,14 +1,15 @@
 ﻿using System.Threading.Tasks;
-using CoreAppDemo.Common;
 using CoreAppDemo.Data.Model;
 using CoreAppDemo.Services;
 
 namespace CoreAppDemo.Controller
 {
+    using CoreAppDemo.Common;
     using Microsoft.AspNetCore.Mvc;
 
-    [Route("api/todos")]
-    [Produces("application/json")]
+    [ApiController]
+    [Route("api/todos")]   
+    [Produces("application/json")]   
     public class TodosController : ControllerBase
     {
         private readonly ITodoService _todoService;
@@ -20,13 +21,17 @@ namespace CoreAppDemo.Controller
 
         [HttpGet("all")]
         public async Task<IActionResult> All()
-        { 
+        {
             return Ok(await _todoService.AllAsync());
         }
 
         [HttpPost("add")]
         public async Task<IActionResult> AddTodo([FromBody] Todo todo)
         {
+            if (todo == null)
+            {
+                throw new System.ArgumentNullException(nameof(todo));
+            }
 
             if (!todo.IsNull())
             {    

@@ -1,4 +1,4 @@
-﻿namespace CoreAppDemo
+﻿namespace WebAppTodo
 {
     internal class ErrorModel
     {

@@ -3,8 +3,6 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.28315.86
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CoreAppDemo", "CoreAppDemo\CoreAppDemo.csproj", "{72FD45D0-E015-4512-8AD4-E79EBD5F1A58}"
-EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CoreAppDemo.Data", "CoreAppDemo.Data\CoreAppDemo.Data.csproj", "{EA2EA9C7-CD82-4B8F-B0C4-91A868E0FF95}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CoreAppDemo.Services", "CoreAppDemo.Services\CoreAppDemo.Services.csproj", "{E4572F81-0AE7-4F85-9511-E19FB3BA6C08}"
@@ -19,10 +17,6 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{72FD45D0-E015-4512-8AD4-E79EBD5F1A58}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{72FD45D0-E015-4512-8AD4-E79EBD5F1A58}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{72FD45D0-E015-4512-8AD4-E79EBD5F1A58}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{72FD45D0-E015-4512-8AD4-E79EBD5F1A58}.Release|Any CPU.Build.0 = Release|Any CPU
 		{EA2EA9C7-CD82-4B8F-B0C4-91A868E0FF95}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{EA2EA9C7-CD82-4B8F-B0C4-91A868E0FF95}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EA2EA9C7-CD82-4B8F-B0C4-91A868E0FF95}.Release|Any CPU.ActiveCfg = Release|Any CPU

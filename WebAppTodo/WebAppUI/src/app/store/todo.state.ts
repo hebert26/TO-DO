@@ -87,7 +87,7 @@ export class TodoState {
     toggle({ getState, patchState }: StateContext<TodoStateModel>, { payload }: ToggleTodo) {
         let newTodo: any = getState().todos.filter(td => td.id == payload);
         let td: Todo = {
-            completed: newTodo[0].completed,
+            completed: !newTodo[0].completed,
             id: newTodo[0].id,
             text: newTodo[0].text
         }
@@ -137,7 +137,14 @@ export class TodoState {
         }
         this.todoService.UpdateTodo(td)
             .subscribe((id: any) => {
-                // no action needed
+                patchState({
+                    todos: getState().todos.map(td => {
+                        if (td.id === newTodo[0].id) {
+                            td.text = payload.text;
+                        }
+                        return td;
+                    })
+                });
             }, error => {
                 //TODO:HG Add logic to display error to users
                 console.log(error);
