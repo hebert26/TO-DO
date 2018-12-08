@@ -64,7 +64,6 @@ export class TodoState {
 
     @Action(TodoFromServer)
     addTodosFromServer({ getState, patchState }: StateContext<TodoStateModel>, { }: TodoFromServer) {
-
         this.todoService.getTodos()
             .subscribe((result: Todo[]) => {
                 patchState({
@@ -86,8 +85,13 @@ export class TodoState {
 
     @Action(ToggleTodo)
     toggle({ getState, patchState }: StateContext<TodoStateModel>, { payload }: ToggleTodo) {
-        let todo: any = getState().todos.filter(td => td.id == payload);
-        this.todoService.toggle(todo[0])
+        let newTodo: any = getState().todos.filter(td => td.id == payload);
+        let td: Todo = {
+            completed: newTodo[0].completed,
+            id: newTodo[0].id,
+            text: newTodo[0].text
+        }
+        this.todoService.toggle(td)
             .subscribe((result: any) => {
                 patchState({
                     todos: getState().todos.map(td => {
@@ -105,8 +109,14 @@ export class TodoState {
 
     @Action(DeleteTodo)
     delete({ getState, patchState }: StateContext<TodoStateModel>, { payload }: DeleteTodo) {
-        let todo: any = getState().todos.filter(td => td.id == payload);
-        this.todoService.remove(todo[0])
+        let newTodo: any = getState().todos.filter(td => td.id == payload);
+
+        let td: Todo = {
+            completed: newTodo[0].completed,
+            id: newTodo[0].id,
+            text: newTodo[0].text
+        }
+        this.todoService.remove(td)
             .subscribe((result: any) => {
                 patchState({
                     todos: getState().todos.filter(td => td.id !== payload)
@@ -119,14 +129,22 @@ export class TodoState {
 
     @Action(UpdateTodo)
     update({ getState, patchState }: StateContext<TodoStateModel>, { payload }: UpdateTodo) {
-        patchState({
-            todos: getState().todos.map(td => {
-                if (td.id === payload.id) {
-                    td.text = payload.text;
-                }
-                return td;
+        let newTodo: any = getState().todos.filter(td => td.id == payload.id);
+        let td: Todo = {
+            completed: newTodo[0].completed,
+            id: newTodo[0].id,
+            text: payload.text
+        }
+        this.todoService.UpdateTodo(td)
+            .subscribe((id: any) => {
+                // no action needed
+            }, error => {
+                //TODO:HG Add logic to display error to users
+                console.log(error);
             })
-        });
+
+
+
     }
 
     @Action(ClearCompleted)

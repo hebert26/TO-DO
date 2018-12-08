@@ -2,7 +2,7 @@ import { Component, Input, OnInit, ElementRef, ViewChild } from "@angular/core";
 import { FormControl, Validators } from "@angular/forms";
 import { Todo } from "../model/models";
 import { Store } from "@ngxs/store";
-import { ToggleTodo, UpdateTodo, DeleteTodo } from "../store/todo.actions";
+import { ToggleTodo, UpdateTodo, DeleteTodo, TodoFromServer } from "../store/todo.actions";
 
 @Component({
     selector: 'app-todo',
@@ -35,6 +35,7 @@ export class TodoComponent implements OnInit {
             const id = this.todo.id;
             const newText: string = this.textField.value;
             this.store.dispatch(new UpdateTodo({ id: id, text: newText.trim() }));
+            this.store.dispatch(new TodoFromServer());
             this.editing = false;
         }
     }

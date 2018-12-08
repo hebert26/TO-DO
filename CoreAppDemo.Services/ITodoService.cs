@@ -10,10 +10,12 @@ namespace CoreAppDemo.Services
 
         Task<int> AddAsync(Todo todo);
 
-        Task<int> ToggleAsync(int id);
+        Task<int> ToggleAsync(Todo todo);
 
-        Task<int> RemoveAsync(int id);
+        Task<int> RemoveAsync(Todo todo);
 
         Task<Todo> FindByIdAsync(int id);
+
+        Task<int> UpdateAsync(Todo todo);
     }
 }

@@ -2,9 +2,9 @@
 
 @import '~todomvc-common/base.css';
 @import '~todomvc-app-css/index.css';
+
 body {
-  background-image: url("http://www.mosaic-online-systems.com/content/backgrounds/dockethub_background.png");
-  background-color: #2578e4ef;
+  background-color: #dee3ea14;
 }
 
 @media only screen and (max-width: 600px) {
@@ -20,11 +20,13 @@ body {
     -moz-text-rendering: optimizeLegibility;
     text-rendering: optimizeLegibility;
   }
+
   .todo-list li {
     position: relative;
     font-size: 17px;
     border-bottom: 1px solid #ededed;
   }
+
   new-todo,
   .edit {
     margin-left: 10;

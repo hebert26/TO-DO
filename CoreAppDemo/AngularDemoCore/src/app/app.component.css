@@ -1,42 +1,63 @@
-body{
-    background-color:#EEEEEE;
-}
-.todolist{
-    background-color:#FFF;
-    padding:20px 20px 10px 20px;
-    margin-top:30px;
-}
-.todolist h1{
-    margin:0;
-    padding-bottom:20px;
-    text-align:center;
-}
-.form-control{
-    border-radius:0;
-}
-li.ui-state-default{
-    background:#fff;
-    border:none;
-    border-bottom:1px solid #ddd;
+body {
+  background-color: #EEEEEE;
 }
 
-li.ui-state-default:last-child{
-    border-bottom:none;
+.todolist {
+  background-color: #FFF;
+  padding: 20px 20px 10px 20px;
+  margin-top: 30px;
 }
 
-.todo-footer{
-    background-color:#F4FCE8;
-    margin:0 -20px -10px -20px;
-    padding: 10px 20px;
+.todolist h1 {
+  margin: 0;
+  padding-bottom: 20px;
+  text-align: center;
 }
-#done-items li{
-    padding:10px 0;
-    border-bottom:1px solid #ddd;
-    text-decoration:line-through;
+
+.form-control {
+  border-radius: 0;
 }
-#done-items li:last-child{
-    border-bottom:none;
+
+li.ui-state-default {
+  background: #fff;
+  border: none;
+  border-bottom: 1px solid #ddd;
 }
-#checkAll{
-    margin-top:10px;
+
+li.ui-state-default:last-child {
+  border-bottom: none;
+}
+
+.todo-footer {
+  background-color: #F4FCE8;
+  margin: 0 -20px -10px -20px;
+  padding: 10px 20px;
+}
+
+#done-items li {
+  padding: 10px 0;
+  border-bottom: 1px solid #ddd;
+  text-decoration: line-through;
+}
+
+#done-items li:last-child {
+  border-bottom: none;
+}
+
+#checkAll {
+  margin-top: 10px;
+}
+
+.info {
+  margin: 65px auto 0;
+  color: #0e0a0a6e;
+  font-size: 10px;
+  text-shadow: 0 1px 0 rgba(255, 255, 255, 0.5);
+  text-align: center;
+}
+
+.info a {
+  color: #242121;
+  text-decoration: none;
+  font-weight: 400;
 }

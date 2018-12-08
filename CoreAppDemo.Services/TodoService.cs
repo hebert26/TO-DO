@@ -25,40 +25,30 @@ namespace CoreAppDemo.Services
         public async Task<int> AddAsync(Todo todo)
         {
             CheckIfTodoIsNull(todo);
-            EntityEntry<Todo> result = await _context.Todos.AddAsync(todo);
-            _context.SaveChanges();
-            return result.Entity.Id;
+            return await SaveChangesAsync(todo, EntityState.Added);
         }
 
-        public async Task<int> ToggleAsync(int id)
+        public async Task<int> UpdateAsync(Todo todo)
         {
-            Todo td = await _context.Todos.FirstOrDefaultAsync(t => t.Id == id);
-            CheckIfTodoIsNull(td);
+            CheckIfTodoIsNull(todo);
+            return await SaveChangesAsync(todo, EntityState.Modified); 
+        }        
 
-            if (td != null)
-            {
-                td.Completed = !td.Completed;
-                return await _context.SaveChangesAsync();
-            }
+        public async Task<int> ToggleAsync(Todo todo)
+        {  
+            CheckIfTodoIsNull(todo); 
+            return await SaveChangesAsync(todo, EntityState.Modified);
+        }       
 
-            return _context.SaveChanges();
+        public async Task<int> RemoveAsync(Todo todo)
+        {  
+            CheckIfTodoIsNull(todo);
+            return await SaveChangesAsync(todo, EntityState.Deleted);         
         }
 
         public async Task<Todo> FindByIdAsync(int id)
         {
-            return await _context.Todos.FirstOrDefaultAsync(todo => todo.Id == id);
-        }
-
-        public async Task<int> RemoveAsync(int id)
-        {
-            Todo todo = await _context.Todos.FirstOrDefaultAsync(t => t.Id == id);
-            if (todo != null)
-            {
-                _context.Todos.Remove(todo);
-                return await _context.SaveChangesAsync();
-            }
-
-            return _context.SaveChanges();
+            return await _context.Todos.AsNoTracking().FirstOrDefaultAsync(todo => todo.Id == id);
         }
 
         private static void CheckIfTodoIsNull(Todo todo)
@@ -67,6 +57,12 @@ namespace CoreAppDemo.Services
             {
                 throw new ArgumentException($"{nameof(todo)} can be null.");
             }
+        }
+
+        public async Task<int> SaveChangesAsync(Todo todo, EntityState entityState)
+        { 
+           _context.Entry(todo).State = entityState; 
+          return await  _context.SaveChangesAsync();
         }
     }
 }
