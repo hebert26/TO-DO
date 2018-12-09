@@ -5500,4 +5500,3 @@ module.exports = __webpack_require__(/*! C:\Personal projects\TO-DO\WebAppTodo\W
 /***/ })
 
 },[[1,"runtime"]]]);
-//# sourceMappingURL=polyfills.js.map
