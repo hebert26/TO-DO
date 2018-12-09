@@ -24,6 +24,7 @@
     "@ngxs/devtools-plugin": "^3.2.0",
     "@ngxs/logger-plugin": "^3.2.0",
     "@ngxs/store": "^3.2.0",
+    "@wishtack/rx-scavenger": "^1.0.2",
     "core-js": "^2.5.4",
     "rxjs": "^6.3.3",
     "todomvc-app-css": "^2.1.2",

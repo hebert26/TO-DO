@@ -4,7 +4,7 @@ import { Subscription } from "rxjs";
 import { ClearCompleted, CompletedAll, TodoFromServer } from "../store/todo.actions";
 import { TodoState } from "../store/todo.state";
 import { TodoService } from "../shared/todo.service";
-import { Todo } from "../model/models";
+import { Scavenger } from '@wishtack/rx-scavenger';
 
 @Component({
     selector: 'app-footer',
@@ -12,20 +12,23 @@ import { Todo } from "../model/models";
 })
 export class FooterComponent implements OnInit, OnDestroy {
 
+    private _scavenger = new Scavenger(this);
     countTodos: number;
     showFooter: boolean;
     @Select(TodoState.getTodos) todos$;
     @Select(TodoState.getFilter) currentFilter$;
-    subs: Subscription;
+
 
     constructor(private store: Store, private todoService: TodoService) {
     }
 
     ngOnInit() {
-        this.subs = this.todos$.subscribe(todos => {
-            this.countTodos = todos.filter(t => !t.completed).length;
-            this.showFooter = todos.length > 0;
-        });
+        this.todos$
+            .pipe(this._scavenger.collectByKey('todos'))
+            .subscribe(todos => {
+                this.countTodos = todos.filter(t => !t.completed).length;
+                this.showFooter = todos.length > 0;
+            });
         this.store.dispatch(new TodoFromServer());
 
     }
@@ -39,7 +42,7 @@ export class FooterComponent implements OnInit, OnDestroy {
     }
 
     ngOnDestroy(): void {
-        this.subs.unsubscribe();
+
     }
 
 }
