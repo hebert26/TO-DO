@@ -26,12 +26,7 @@ const routes: Routes = [
 ];
 
 
-if (!environment.production) {
-  devtools = [
-    NgxsReduxDevtoolsPluginModule.forRoot(),
-    NgxsLoggerPluginModule.forRoot()
-  ];
-}
+addDevTools();
 
 @NgModule({
   declarations: [
@@ -62,4 +57,13 @@ if (!environment.production) {
 export class AppModule { }
 
 
+
+function addDevTools() {
+  if (!environment.production) {
+    devtools = [
+      NgxsReduxDevtoolsPluginModule.forRoot(),
+      NgxsLoggerPluginModule.forRoot()
+    ];
+  }
+}
 
