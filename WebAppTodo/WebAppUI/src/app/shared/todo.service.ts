@@ -1,11 +1,11 @@
-import { Injectable } from "../../../node_modules/@angular/core";
+import { Injectable } from '../../../node_modules/@angular/core';
 import { HttpClient, HttpHeaders } from '@angular/common/http';
-import { Todo } from "../model/models";
-import { Observable } from "../../../node_modules/rxjs";
-import { HandleError, HttpErrorHandler } from "../http-error-handler.service";
+import { Todo } from '../model/models';
+import { Observable } from '../../../node_modules/rxjs';
+import { HandleError, HttpErrorHandlerService } from '../core/errors-handler/http-error-handler.service';
 import { catchError } from 'rxjs/operators';
 
-//Accept: application/json;odata=verbose;
+
 const httpOptions = {
   headers: new HttpHeaders({
     'Accept': 'application/json;odata=verbose',
@@ -18,9 +18,10 @@ const httpOptions = {
 })
 export class TodoService {
   private handleError: HandleError;
-  private apiUrl: string = "api/todos/";
 
-  constructor(private http: HttpClient, httpErrorHandler: HttpErrorHandler) {
+  private apiUrl: string = 'api/todos/';
+
+  constructor(private http: HttpClient, httpErrorHandler: HttpErrorHandlerService) {
     this.handleError = httpErrorHandler.createHandleError('TodoService');
   }
 

@@ -1661,7 +1661,7 @@ webpackEmptyAsyncContext.id = "./src/$$_lazy_route_resource lazy recursive";
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "body {\r\n  background-color: #EEEEEE;\r\n}\r\n\r\n.todolist {\r\n  background-color: #FFF;\r\n  padding: 20px 20px 10px 20px;\r\n  margin-top: 30px;\r\n}\r\n\r\n.todolist h1 {\r\n  margin: 0;\r\n  padding-bottom: 20px;\r\n  text-align: center;\r\n}\r\n\r\n.form-control {\r\n  border-radius: 0;\r\n}\r\n\r\nli.ui-state-default {\r\n  background: #fff;\r\n  border: none;\r\n  border-bottom: 1px solid #ddd;\r\n}\r\n\r\nli.ui-state-default:last-child {\r\n  border-bottom: none;\r\n}\r\n\r\n.todo-footer {\r\n  background-color: #F4FCE8;\r\n  margin: 0 -20px -10px -20px;\r\n  padding: 10px 20px;\r\n}\r\n\r\n#done-items li {\r\n  padding: 10px 0;\r\n  border-bottom: 1px solid #ddd;\r\n  text-decoration: line-through;\r\n}\r\n\r\n#done-items li:last-child {\r\n  border-bottom: none;\r\n}\r\n\r\n#checkAll {\r\n  margin-top: 10px;\r\n}\r\n\r\n.info {\r\n  margin: 65px auto 0;\r\n  color: #0e0a0a6e;\r\n  font-size: 10px;\r\n  text-shadow: 0 1px 0 rgba(255, 255, 255, 0.5);\r\n  text-align: center;\r\n}\r\n\r\n.info a {\r\n  color: #242121;\r\n  text-decoration: none;\r\n  font-weight: 400;\r\n}\r\n"
+module.exports = "body {\r\n  background-color: #EEEEEE;\r\n}\r\n\r\n.todolist {\r\n  background-color: #FFF;\r\n  padding: 20px 20px 10px 20px;\r\n  margin-top: 30px;\r\n}\r\n\r\n.todolist h1 {\r\n  margin: 0;\r\n  padding-bottom: 20px;\r\n  text-align: center;\r\n}\r\n\r\n.form-control {\r\n  border-radius: 0;\r\n}\r\n\r\nli.ui-state-default {\r\n  background: #fff;\r\n  border: none;\r\n  border-bottom: 1px solid #ddd;\r\n}\r\n\r\nli.ui-state-default:last-child {\r\n  border-bottom: none;\r\n}\r\n\r\n.todo-footer {\r\n  background-color: #F4FCE8;\r\n  margin: 0 -20px -10px -20px;\r\n  padding: 10px 20px;\r\n}\r\n\r\n#done-items li {\r\n  padding: 10px 0;\r\n  border-bottom: 1px solid #ddd;\r\n  text-decoration: line-through;\r\n}\r\n\r\n#done-items li:last-child {\r\n  border-bottom: none;\r\n}\r\n\r\n#checkAll {\r\n  margin-top: 10px;\r\n}\r\n\r\n.info {\r\n  margin: 65px auto 0;\r\n  color: #0e0a0a6e;\r\n  font-size: 10px;\r\n  text-shadow: 0 1px 0 rgba(255, 255, 255, 0.5);\r\n  text-align: center;\r\n}\r\n\r\n.info a {\r\n  color: #242121;\r\n  text-decoration: none;\r\n  font-weight: 400;\r\n}\r\n\r\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvYXBwLmNvbXBvbmVudC5jc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUE7RUFDRSwwQkFBMEI7Q0FDM0I7O0FBRUQ7RUFDRSx1QkFBdUI7RUFDdkIsNkJBQTZCO0VBQzdCLGlCQUFpQjtDQUNsQjs7QUFFRDtFQUNFLFVBQVU7RUFDVixxQkFBcUI7RUFDckIsbUJBQW1CO0NBQ3BCOztBQUVEO0VBQ0UsaUJBQWlCO0NBQ2xCOztBQUVEO0VBQ0UsaUJBQWlCO0VBQ2pCLGFBQWE7RUFDYiw4QkFBOEI7Q0FDL0I7O0FBRUQ7RUFDRSxvQkFBb0I7Q0FDckI7O0FBRUQ7RUFDRSwwQkFBMEI7RUFDMUIsNEJBQTRCO0VBQzVCLG1CQUFtQjtDQUNwQjs7QUFFRDtFQUNFLGdCQUFnQjtFQUNoQiw4QkFBOEI7RUFDOUIsOEJBQThCO0NBQy9COztBQUVEO0VBQ0Usb0JBQW9CO0NBQ3JCOztBQUVEO0VBQ0UsaUJBQWlCO0NBQ2xCOztBQUVEO0VBQ0Usb0JBQW9CO0VBQ3BCLGlCQUFpQjtFQUNqQixnQkFBZ0I7RUFDaEIsOENBQThDO0VBQzlDLG1CQUFtQjtDQUNwQjs7QUFFRDtFQUNFLGVBQWU7RUFDZixzQkFBc0I7RUFDdEIsaUJBQWlCO0NBQ2xCIiwiZmlsZSI6InNyYy9hcHAvYXBwLmNvbXBvbmVudC5jc3MiLCJzb3VyY2VzQ29udGVudCI6WyJib2R5IHtcclxuICBiYWNrZ3JvdW5kLWNvbG9yOiAjRUVFRUVFO1xyXG59XHJcblxyXG4udG9kb2xpc3Qge1xyXG4gIGJhY2tncm91bmQtY29sb3I6ICNGRkY7XHJcbiAgcGFkZGluZzogMjBweCAyMHB4IDEwcHggMjBweDtcclxuICBtYXJnaW4tdG9wOiAzMHB4O1xyXG59XHJcblxyXG4udG9kb2xpc3QgaDEge1xyXG4gIG1hcmdpbjogMDtcclxuICBwYWRkaW5nLWJvdHRvbTogMjBweDtcclxuICB0ZXh0LWFsaWduOiBjZW50ZXI7XHJcbn1cclxuXHJcbi5mb3JtLWNvbnRyb2wge1xyXG4gIGJvcmRlci1yYWRpdXM6IDA7XHJcbn1cclxuXHJcbmxpLnVpLXN0YXRlLWRlZmF1bHQge1xyXG4gIGJhY2tncm91bmQ6ICNmZmY7XHJcbiAgYm9yZGVyOiBub25lO1xyXG4gIGJvcmRlci1ib3R0b206IDFweCBzb2xpZCAjZGRkO1xyXG59XHJcblxyXG5saS51aS1zdGF0ZS1kZWZhdWx0Omxhc3QtY2hpbGQge1xyXG4gIGJvcmRlci1ib3R0b206IG5vbmU7XHJcbn1cclxuXHJcbi50b2RvLWZvb3RlciB7XHJcbiAgYmFja2dyb3VuZC1jb2xvcjogI0Y0RkNFODtcclxuICBtYXJnaW46IDAgLTIwcHggLTEwcHggLTIwcHg7XHJcbiAgcGFkZGluZzogMTBweCAyMHB4O1xyXG59XHJcblxyXG4jZG9uZS1pdGVtcyBsaSB7XHJcbiAgcGFkZGluZzogMTBweCAwO1xyXG4gIGJvcmRlci1ib3R0b206IDFweCBzb2xpZCAjZGRkO1xyXG4gIHRleHQtZGVjb3JhdGlvbjogbGluZS10aHJvdWdoO1xyXG59XHJcblxyXG4jZG9uZS1pdGVtcyBsaTpsYXN0LWNoaWxkIHtcclxuICBib3JkZXItYm90dG9tOiBub25lO1xyXG59XHJcblxyXG4jY2hlY2tBbGwge1xyXG4gIG1hcmdpbi10b3A6IDEwcHg7XHJcbn1cclxuXHJcbi5pbmZvIHtcclxuICBtYXJnaW46IDY1cHggYXV0byAwO1xyXG4gIGNvbG9yOiAjMGUwYTBhNmU7XHJcbiAgZm9udC1zaXplOiAxMHB4O1xyXG4gIHRleHQtc2hhZG93OiAwIDFweCAwIHJnYmEoMjU1LCAyNTUsIDI1NSwgMC41KTtcclxuICB0ZXh0LWFsaWduOiBjZW50ZXI7XHJcbn1cclxuXHJcbi5pbmZvIGEge1xyXG4gIGNvbG9yOiAjMjQyMTIxO1xyXG4gIHRleHQtZGVjb3JhdGlvbjogbm9uZTtcclxuICBmb250LXdlaWdodDogNDAwO1xyXG59XHJcbiJdfQ== */"
 
 /***/ }),
 
@@ -1672,7 +1672,7 @@ module.exports = "body {\r\n  background-color: #EEEEEE;\r\n}\r\n\r\n.todolist {
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "<section class=\"todoapp\">\n  <header class=\"header\">\n    <h1>To Do List</h1>\n    <app-new-todo></app-new-todo>\n  </header>\n  <router-outlet></router-outlet>\n  <app-footer></app-footer>\n</section>\n<footer class=\"info\">\n  <p>Writen by\n    <a href=\"https://twitter.com/Heberth26\">Hebert Godoy</a>\n  </p>\n  <p>Tecnologies used\n    <a href=\"https://angular.io/\">Angular 6</a>, \n    <a href=\"https://github.com/ngxs/store\">@ngxs/store</a>, \n    <a href=\"https://docs.microsoft.com/en-us/azure/service-fabric/\">Azure service fabric</a>  \n  </p>\n</footer>\n"
+module.exports = "<section class=\"todoapp\">\n  <header class=\"header\">\n    <h1>To Do List</h1>\n    <app-new-todo></app-new-todo>    \n  </header>\n  <router-outlet></router-outlet>\n  <div class=\"notification\" *ngIf=\"showNotification\" class=\"notification\">\n      <p>{{ notification }}</p>\n</div>\n  <app-footer></app-footer>\n</section> \n<footer class=\"info\">\n  <p>Writen by\n    <a href=\"https://twitter.com/Heberth26\">Hebert Godoy</a>\n  </p>\n  <p>Tecnologies used\n    <a href=\"https://angular.io/\">Angular 6</a>, \n    <a href=\"https://github.com/ngxs/store\">@ngxs/store</a>, \n    <a href=\"https://docs.microsoft.com/en-us/azure/service-fabric/\">Azure service fabric</a>  \n  </p>\n</footer>\n\n"
 
 /***/ }),
 
@@ -1688,12 +1688,25 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "AppComponent", function() { return AppComponent; });
 /* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "./node_modules/tslib/tslib.es6.js");
 /* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm5/core.js");
+/* harmony import */ var _core_notifications_notification_setvice__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./core/notifications/notification.setvice */ "./src/app/core/notifications/notification.setvice.ts");
+/* harmony import */ var util__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! util */ "./node_modules/util/util.js");
+/* harmony import */ var util__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(util__WEBPACK_IMPORTED_MODULE_3__);
+
+
 
 
 var AppComponent = /** @class */ (function () {
-    function AppComponent() {
+    function AppComponent(_notificationService) {
+        this._notificationService = _notificationService;
     }
     AppComponent.prototype.ngOnInit = function () {
+        var _this = this;
+        this._notificationService
+            .notification$
+            .subscribe(function (message) {
+            _this.notification = message;
+            _this.showNotification = !Object(util__WEBPACK_IMPORTED_MODULE_3__["isNullOrUndefined"])(message);
+        });
     };
     AppComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
         Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"])({
@@ -1701,7 +1714,7 @@ var AppComponent = /** @class */ (function () {
             template: __webpack_require__(/*! ./app.component.html */ "./src/app/app.component.html"),
             styles: [__webpack_require__(/*! ./app.component.css */ "./src/app/app.component.css")]
         }),
-        tslib__WEBPACK_IMPORTED_MODULE_0__["__metadata"]("design:paramtypes", [])
+        tslib__WEBPACK_IMPORTED_MODULE_0__["__metadata"]("design:paramtypes", [_core_notifications_notification_setvice__WEBPACK_IMPORTED_MODULE_2__["NotificationService"]])
     ], AppComponent);
     return AppComponent;
 }());
@@ -1738,9 +1751,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _ng_bootstrap_ng_bootstrap__WEBPACK_IMPORTED_MODULE_15__ = __webpack_require__(/*! @ng-bootstrap/ng-bootstrap */ "./node_modules/@ng-bootstrap/ng-bootstrap/index.js");
 /* harmony import */ var _store_todo_state__WEBPACK_IMPORTED_MODULE_16__ = __webpack_require__(/*! ./store/todo.state */ "./src/app/store/todo.state.ts");
 /* harmony import */ var _shared_todo_service__WEBPACK_IMPORTED_MODULE_17__ = __webpack_require__(/*! ./shared/todo.service */ "./src/app/shared/todo.service.ts");
-/* harmony import */ var _http_error_handler_service__WEBPACK_IMPORTED_MODULE_18__ = __webpack_require__(/*! ./http-error-handler.service */ "./src/app/http-error-handler.service.ts");
-/* harmony import */ var _message_service__WEBPACK_IMPORTED_MODULE_19__ = __webpack_require__(/*! ./message.service */ "./src/app/message.service.ts");
-
+/* harmony import */ var _core__WEBPACK_IMPORTED_MODULE_18__ = __webpack_require__(/*! ./core */ "./src/app/core/index.ts");
 
 
 
@@ -1766,12 +1777,7 @@ var routes = [
     { path: '', component: _todo_list_todo_list_component__WEBPACK_IMPORTED_MODULE_13__["TodoListComponent"], pathMatch: 'full' },
     { path: ':filter', component: _todo_list_todo_list_component__WEBPACK_IMPORTED_MODULE_13__["TodoListComponent"] }
 ];
-if (!_environments_environment__WEBPACK_IMPORTED_MODULE_7__["environment"].production) {
-    devtools = [
-        _ngxs_devtools_plugin__WEBPACK_IMPORTED_MODULE_5__["NgxsReduxDevtoolsPluginModule"].forRoot(),
-        _ngxs_logger_plugin__WEBPACK_IMPORTED_MODULE_6__["NgxsLoggerPluginModule"].forRoot()
-    ];
-}
+addDevTools();
 var AppModule = /** @class */ (function () {
     function AppModule() {
     }
@@ -1793,17 +1799,462 @@ var AppModule = /** @class */ (function () {
                     _store_todo_state__WEBPACK_IMPORTED_MODULE_16__["TodoState"]
                 ]),
                 devtools,
-                _ng_bootstrap_ng_bootstrap__WEBPACK_IMPORTED_MODULE_15__["NgbModule"].forRoot()
+                _ng_bootstrap_ng_bootstrap__WEBPACK_IMPORTED_MODULE_15__["NgbModule"].forRoot(),
+                _core__WEBPACK_IMPORTED_MODULE_18__["ErrorsModule"]
             ],
             providers: [
-                _shared_todo_service__WEBPACK_IMPORTED_MODULE_17__["TodoService"],
-                _message_service__WEBPACK_IMPORTED_MODULE_19__["MessageService"],
-                _http_error_handler_service__WEBPACK_IMPORTED_MODULE_18__["HttpErrorHandler"]
+                _shared_todo_service__WEBPACK_IMPORTED_MODULE_17__["TodoService"]
             ],
             bootstrap: [_app_component__WEBPACK_IMPORTED_MODULE_3__["AppComponent"]]
         })
     ], AppModule);
     return AppModule;
+}());
+
+function addDevTools() {
+    if (!_environments_environment__WEBPACK_IMPORTED_MODULE_7__["environment"].production) {
+        devtools = [
+            _ngxs_devtools_plugin__WEBPACK_IMPORTED_MODULE_5__["NgxsReduxDevtoolsPluginModule"].forRoot(),
+            _ngxs_logger_plugin__WEBPACK_IMPORTED_MODULE_6__["NgxsLoggerPluginModule"].forRoot()
+        ];
+    }
+}
+
+
+/***/ }),
+
+/***/ "./src/app/core/errors-component/errors.component.html":
+/*!*************************************************************!*\
+  !*** ./src/app/core/errors-component/errors.component.html ***!
+  \*************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "<div class=\"error-container\">\r\n\r\n  <div *ngIf=\"data?.error\">\r\n    <h1>ERROR {{ data?.error}}</h1>\r\n    <h5 *ngIf=\"data?.error === 404\">Not found :(</h5>\r\n    <a mat-raised-button [routerLink]=\"'/'\">\r\n      <h5>Go Home</h5>\r\n    </a>\r\n  </div>\r\n\r\n  <div *ngIf=\"routeParams.message\">\r\n    <h1 *ngIf=\"routeParams?.status\"> ERROR {{ routeParams?.status }}</h1><br/>\r\n    <h3 *ngIf=\"routeParams?.message\">{{ routeParams?.message }}</h3><br/>\r\n    <h1 *ngIf=\"routeParams?.url && routeParams?.url !== '/'\">Error in {{ routeParams?.url | uppercase }} page, sorry {{ routeParams?.user }} :(</h1>\r\n    <h4 *ngIf=\"routeParams?.id\">This error has been reported to the Administrator with the ID:<br> {{ routeParams?.id}}</h4>\r\n    <a mat-raised-button\r\n      [routerLink]=\"routeParams?.url\"\r\n      *ngIf=\"routeParams?.url && routeParams.status !== '404'\">\r\n        <h5>Go Back to {{routeParams?.url}}</h5>\r\n    </a>\r\n    <a mat-raised-button\r\n       routerLink=\"/\"\r\n       *ngIf=\"!routeParams.url || routeParams.status === '404'\">\r\n        <h5>Go Back to home</h5>\r\n    </a>\r\n  </div>\r\n\r\n  <div *ngIf=\"!routeParams && !data\">\r\n      <h1>Unknown error, sorry :(</h1>\r\n      <a mat-raised-button [routerLink]=\"'/login'\">\r\n        <h5>Go Home</h5>\r\n      </a>\r\n  </div>\r\n</div>\r\n\r\n<div class=\"pre-container\" *ngIf=\"routeParams?.message\">\r\n  <p>Error sent to the server</p>\r\n  <pre>\r\n    {{ this.routeParams | json }}\r\n  </pre>\r\n</div>"
+
+/***/ }),
+
+/***/ "./src/app/core/errors-component/errors.component.scss":
+/*!*************************************************************!*\
+  !*** ./src/app/core/errors-component/errors.component.scss ***!
+  \*************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "h1,\nh3,\nh4,\nh5 {\n  margin-bottom: 0;\n  margin-top: 10px; }\n\n.error-container {\n  margin: 0 auto;\n  margin-top: 50%;\n  -webkit-transform: translateY(-50%);\n          transform: translateY(-50%);\n  text-align: center;\n  overflow-wrap: break-word; }\n\n.pre-container {\n  width: 400px;\n  padding: 15px;\n  max-width: 90%;\n  margin: 0 auto;\n  background-color: lightgrey;\n  box-shadow: 0 3px 1px -2px rgba(0, 0, 0, 0.2), 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 1px 5px 0 rgba(0, 0, 0, 0.12); }\n\npre {\n  overflow: scroll; }\n\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvY29yZS9lcnJvcnMtY29tcG9uZW50L0M6XFxQZXJzb25hbCBwcm9qZWN0c1xcVE8tRE9cXFdlYkFwcFRvZG9cXFdlYkFwcFVJL3NyY1xcYXBwXFxjb3JlXFxlcnJvcnMtY29tcG9uZW50XFxlcnJvcnMuY29tcG9uZW50LnNjc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUE7Ozs7RUFJRSxpQkFBZ0I7RUFDaEIsaUJBQWdCLEVBQ2pCOztBQUVEO0VBRUUsZUFBYztFQUNkLGdCQUFlO0VBQ2Ysb0NBQTJCO1VBQTNCLDRCQUEyQjtFQUMzQixtQkFBa0I7RUFDbEIsMEJBQXlCLEVBQzFCOztBQUVEO0VBQ0UsYUFBWTtFQUNaLGNBQWE7RUFDYixlQUFjO0VBQ2QsZUFBYztFQUNkLDRCQUEyQjtFQUMzQixnSEFBNEcsRUFDN0c7O0FBRUQ7RUFDRSxpQkFBZ0IsRUFDakIiLCJmaWxlIjoic3JjL2FwcC9jb3JlL2Vycm9ycy1jb21wb25lbnQvZXJyb3JzLmNvbXBvbmVudC5zY3NzIiwic291cmNlc0NvbnRlbnQiOlsiaDEsXHJcbmgzLFxyXG5oNCxcclxuaDUge1xyXG4gIG1hcmdpbi1ib3R0b206IDA7XHJcbiAgbWFyZ2luLXRvcDogMTBweDtcclxufVxyXG5cclxuLmVycm9yLWNvbnRhaW5lciB7XHJcbiAgLy8gd2lkdGg6IDIyMHB4O1xyXG4gIG1hcmdpbjogMCBhdXRvO1xyXG4gIG1hcmdpbi10b3A6IDUwJTtcclxuICB0cmFuc2Zvcm06IHRyYW5zbGF0ZVkoLTUwJSk7XHJcbiAgdGV4dC1hbGlnbjogY2VudGVyO1xyXG4gIG92ZXJmbG93LXdyYXA6IGJyZWFrLXdvcmQ7XHJcbn1cclxuXHJcbi5wcmUtY29udGFpbmVyIHtcclxuICB3aWR0aDogNDAwcHg7XHJcbiAgcGFkZGluZzogMTVweDtcclxuICBtYXgtd2lkdGg6IDkwJTtcclxuICBtYXJnaW46IDAgYXV0bztcclxuICBiYWNrZ3JvdW5kLWNvbG9yOiBsaWdodGdyZXk7XHJcbiAgYm94LXNoYWRvdzogMCAzcHggMXB4IC0ycHggcmdiYSgwLCAwLCAwLCAuMiksIDAgMnB4IDJweCAwIHJnYmEoMCwgMCwgMCwgLjE0KSwgMCAxcHggNXB4IDAgcmdiYSgwLCAwLCAwLCAuMTIpO1xyXG59XHJcblxyXG5wcmUge1xyXG4gIG92ZXJmbG93OiBzY3JvbGw7XHJcbn1cclxuIl19 */"
+
+/***/ }),
+
+/***/ "./src/app/core/errors-component/errors.component.ts":
+/*!***********************************************************!*\
+  !*** ./src/app/core/errors-component/errors.component.ts ***!
+  \***********************************************************/
+/*! exports provided: ErrorsComponent */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ErrorsComponent", function() { return ErrorsComponent; });
+/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "./node_modules/tslib/tslib.es6.js");
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm5/core.js");
+/* harmony import */ var _angular_router__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @angular/router */ "./node_modules/@angular/router/fesm5/router.js");
+
+
+
+var ErrorsComponent = /** @class */ (function () {
+    function ErrorsComponent(activatedRoute) {
+        this.activatedRoute = activatedRoute;
+    }
+    ErrorsComponent.prototype.ngOnInit = function () {
+        this.routeParams = this.activatedRoute.snapshot.queryParams;
+        this.data = this.activatedRoute.snapshot.data;
+    };
+    ErrorsComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
+        Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"])({
+            selector: 'app-error',
+            template: __webpack_require__(/*! ./errors.component.html */ "./src/app/core/errors-component/errors.component.html"),
+            styles: [__webpack_require__(/*! ./errors.component.scss */ "./src/app/core/errors-component/errors.component.scss")]
+        }),
+        tslib__WEBPACK_IMPORTED_MODULE_0__["__metadata"]("design:paramtypes", [_angular_router__WEBPACK_IMPORTED_MODULE_2__["ActivatedRoute"]])
+    ], ErrorsComponent);
+    return ErrorsComponent;
+}());
+
+
+
+/***/ }),
+
+/***/ "./src/app/core/errors-handler/http-error-handler.service.ts":
+/*!*******************************************************************!*\
+  !*** ./src/app/core/errors-handler/http-error-handler.service.ts ***!
+  \*******************************************************************/
+/*! exports provided: HttpErrorHandlerService */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "HttpErrorHandlerService", function() { return HttpErrorHandlerService; });
+/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "./node_modules/tslib/tslib.es6.js");
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm5/core.js");
+/* harmony import */ var rxjs__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! rxjs */ "./node_modules/rxjs/_esm5/index.js");
+/* harmony import */ var _notifications_notification_setvice__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../notifications/notification.setvice */ "./src/app/core/notifications/notification.setvice.ts");
+/* harmony import */ var _errors_service_errors_service__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../errors-service/errors.service */ "./src/app/core/errors-service/errors.service.ts");
+
+
+
+
+
+var HttpErrorHandlerService = /** @class */ (function () {
+    function HttpErrorHandlerService(injector) {
+        var _this = this;
+        this.injector = injector;
+        this.createHandleError = function (serviceName) {
+            if (serviceName === void 0) { serviceName = ''; }
+            return function (action, result) {
+                if (action === void 0) { action = 'operation'; }
+                if (result === void 0) { result = {}; }
+                return _this.handleError(serviceName, action, result);
+            };
+        };
+    }
+    HttpErrorHandlerService.prototype.handleError = function (serviceName, action, result) {
+        var _this = this;
+        if (serviceName === void 0) { serviceName = ''; }
+        if (action === void 0) { action = 'operation'; }
+        if (result === void 0) { result = {}; }
+        return function (errorContext) {
+            console.log(serviceName);
+            console.log(action);
+            var notificationService = _this.injector.get(_notifications_notification_setvice__WEBPACK_IMPORTED_MODULE_3__["NotificationService"]);
+            var errorsService = _this.injector.get(_errors_service_errors_service__WEBPACK_IMPORTED_MODULE_4__["ErrorsService"]);
+            if (!navigator.onLine) {
+                notificationService.notify('No Internet Connection');
+            }
+            else {
+                errorsService.log(errorContext).subscribe();
+                notificationService.notify(errorContext.status + " - " + errorContext.message);
+            }
+            return Object(rxjs__WEBPACK_IMPORTED_MODULE_2__["of"])(result);
+        };
+    };
+    HttpErrorHandlerService = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
+        Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Injectable"])(),
+        tslib__WEBPACK_IMPORTED_MODULE_0__["__metadata"]("design:paramtypes", [_angular_core__WEBPACK_IMPORTED_MODULE_1__["Injector"]])
+    ], HttpErrorHandlerService);
+    return HttpErrorHandlerService;
+}());
+
+
+
+/***/ }),
+
+/***/ "./src/app/core/errors-routing/errors-routing.module.ts":
+/*!**************************************************************!*\
+  !*** ./src/app/core/errors-routing/errors-routing.module.ts ***!
+  \**************************************************************/
+/*! exports provided: ErrorRoutingModule */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ErrorRoutingModule", function() { return ErrorRoutingModule; });
+/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "./node_modules/tslib/tslib.es6.js");
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm5/core.js");
+/* harmony import */ var _angular_router__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @angular/router */ "./node_modules/@angular/router/fesm5/router.js");
+/* harmony import */ var _errors_component_errors_component__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../errors-component/errors.component */ "./src/app/core/errors-component/errors.component.ts");
+
+
+
+
+var routes = [
+    { path: 'error', component: _errors_component_errors_component__WEBPACK_IMPORTED_MODULE_3__["ErrorsComponent"] },
+    { path: '**', component: _errors_component_errors_component__WEBPACK_IMPORTED_MODULE_3__["ErrorsComponent"] },
+];
+var ErrorRoutingModule = /** @class */ (function () {
+    function ErrorRoutingModule() {
+    }
+    ErrorRoutingModule = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
+        Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["NgModule"])({
+            imports: [_angular_router__WEBPACK_IMPORTED_MODULE_2__["RouterModule"].forChild(routes)],
+            exports: [_angular_router__WEBPACK_IMPORTED_MODULE_2__["RouterModule"]]
+        })
+    ], ErrorRoutingModule);
+    return ErrorRoutingModule;
+}());
+
+
+
+/***/ }),
+
+/***/ "./src/app/core/errors-service/errors.service.ts":
+/*!*******************************************************!*\
+  !*** ./src/app/core/errors-service/errors.service.ts ***!
+  \*******************************************************/
+/*! exports provided: ErrorsService */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ErrorsService", function() { return ErrorsService; });
+/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "./node_modules/tslib/tslib.es6.js");
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm5/core.js");
+/* harmony import */ var _angular_router__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @angular/router */ "./node_modules/@angular/router/fesm5/router.js");
+/* harmony import */ var _angular_common__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @angular/common */ "./node_modules/@angular/common/fesm5/common.js");
+/* harmony import */ var _fakeHttpService__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./fakeHttpService */ "./src/app/core/errors-service/fakeHttpService.ts");
+
+
+
+
+
+var ErrorsService = /** @class */ (function () {
+    function ErrorsService(injector, router) {
+        var _this = this;
+        this.injector = injector;
+        this.router = router;
+        // Subscribe to the NavigationError
+        this.router
+            .events
+            .subscribe(function (event) {
+            if (event instanceof _angular_router__WEBPACK_IMPORTED_MODULE_2__["NavigationError"]) {
+                // Redirect to the ErrorComponent
+                _this.log(event.error)
+                    .subscribe(function (errorWithContext) {
+                    _this.router.navigate(['/error'], { queryParams: errorWithContext });
+                });
+            }
+        });
+    }
+    ErrorsService.prototype.log = function (error) {
+        return _fakeHttpService__WEBPACK_IMPORTED_MODULE_4__["fakeHttpService"].post(this.addContextInfo(error));
+    };
+    ErrorsService.prototype.addContextInfo = function (context) {
+        var newContext = {
+            name: context.name,
+            appId: 'todo-appi',
+            time: new Date().getTime(),
+            location: this.injector.get(_angular_common__WEBPACK_IMPORTED_MODULE_3__["LocationStrategy"]),
+            status: context.status,
+            message: context.message,
+            stack: context.stack
+        };
+        return newContext;
+    };
+    ErrorsService = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
+        Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Injectable"])(),
+        tslib__WEBPACK_IMPORTED_MODULE_0__["__metadata"]("design:paramtypes", [_angular_core__WEBPACK_IMPORTED_MODULE_1__["Injector"], _angular_router__WEBPACK_IMPORTED_MODULE_2__["Router"]])
+    ], ErrorsService);
+    return ErrorsService;
+}());
+
+
+
+/***/ }),
+
+/***/ "./src/app/core/errors-service/fakeHttpService.ts":
+/*!********************************************************!*\
+  !*** ./src/app/core/errors-service/fakeHttpService.ts ***!
+  \********************************************************/
+/*! exports provided: fakeHttpService */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "fakeHttpService", function() { return fakeHttpService; });
+/* harmony import */ var rxjs__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! rxjs */ "./node_modules/rxjs/_esm5/index.js");
+
+// tslint:disable-next-line:class-name
+var fakeHttpService = /** @class */ (function () {
+    function fakeHttpService() {
+    }
+    fakeHttpService.post = function (error) {
+        console.log('Error sent to the server: ', error);
+        return Object(rxjs__WEBPACK_IMPORTED_MODULE_0__["of"])(error);
+    };
+    return fakeHttpService;
+}());
+
+
+
+/***/ }),
+
+/***/ "./src/app/core/errors.module.ts":
+/*!***************************************!*\
+  !*** ./src/app/core/errors.module.ts ***!
+  \***************************************/
+/*! exports provided: ErrorsModule */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ErrorsModule", function() { return ErrorsModule; });
+/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "./node_modules/tslib/tslib.es6.js");
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm5/core.js");
+/* harmony import */ var _angular_common__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @angular/common */ "./node_modules/@angular/common/fesm5/common.js");
+/* harmony import */ var _angular_common_http__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @angular/common/http */ "./node_modules/@angular/common/fesm5/http.js");
+/* harmony import */ var _angular_router__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @angular/router */ "./node_modules/@angular/router/fesm5/router.js");
+/* harmony import */ var _errors_service_errors_service__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./errors-service/errors.service */ "./src/app/core/errors-service/errors.service.ts");
+/* harmony import */ var _errors_routing_errors_routing_module__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./errors-routing/errors-routing.module */ "./src/app/core/errors-routing/errors-routing.module.ts");
+/* harmony import */ var _errors_component_errors_component__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./errors-component/errors.component */ "./src/app/core/errors-component/errors.component.ts");
+/* harmony import */ var _notifications_notification_setvice__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ./notifications/notification.setvice */ "./src/app/core/notifications/notification.setvice.ts");
+/* harmony import */ var _server_errors_interceptor_http_errors_interceptor__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ./server-errors-interceptor/http-errors.interceptor */ "./src/app/core/server-errors-interceptor/http-errors.interceptor.ts");
+/* harmony import */ var _errors_handler_http_error_handler_service__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ./errors-handler/http-error-handler.service */ "./src/app/core/errors-handler/http-error-handler.service.ts");
+
+
+
+
+
+
+
+
+
+
+
+var ErrorsModule = /** @class */ (function () {
+    function ErrorsModule() {
+    }
+    ErrorsModule = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
+        Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["NgModule"])({
+            imports: [
+                _angular_common__WEBPACK_IMPORTED_MODULE_2__["CommonModule"],
+                _angular_router__WEBPACK_IMPORTED_MODULE_4__["RouterModule"],
+                _errors_routing_errors_routing_module__WEBPACK_IMPORTED_MODULE_6__["ErrorRoutingModule"],
+            ],
+            declarations: [
+                _errors_component_errors_component__WEBPACK_IMPORTED_MODULE_7__["ErrorsComponent"]
+            ],
+            providers: [
+                _errors_service_errors_service__WEBPACK_IMPORTED_MODULE_5__["ErrorsService"],
+                _errors_handler_http_error_handler_service__WEBPACK_IMPORTED_MODULE_10__["HttpErrorHandlerService"],
+                _notifications_notification_setvice__WEBPACK_IMPORTED_MODULE_8__["NotificationService"],
+                {
+                    provide: _angular_common_http__WEBPACK_IMPORTED_MODULE_3__["HTTP_INTERCEPTORS"],
+                    useClass: _server_errors_interceptor_http_errors_interceptor__WEBPACK_IMPORTED_MODULE_9__["HttpErrorInterceptor"],
+                    multi: true
+                },
+            ]
+        })
+    ], ErrorsModule);
+    return ErrorsModule;
+}());
+
+
+
+/***/ }),
+
+/***/ "./src/app/core/index.ts":
+/*!*******************************!*\
+  !*** ./src/app/core/index.ts ***!
+  \*******************************/
+/*! exports provided: ErrorsModule, ErrorsComponent, ErrorsService */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _errors_module__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./errors.module */ "./src/app/core/errors.module.ts");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "ErrorsModule", function() { return _errors_module__WEBPACK_IMPORTED_MODULE_0__["ErrorsModule"]; });
+
+/* harmony import */ var _errors_component_errors_component__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./errors-component/errors.component */ "./src/app/core/errors-component/errors.component.ts");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "ErrorsComponent", function() { return _errors_component_errors_component__WEBPACK_IMPORTED_MODULE_1__["ErrorsComponent"]; });
+
+/* harmony import */ var _errors_service_errors_service__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./errors-service/errors.service */ "./src/app/core/errors-service/errors.service.ts");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "ErrorsService", function() { return _errors_service_errors_service__WEBPACK_IMPORTED_MODULE_2__["ErrorsService"]; });
+
+
+
+
+
+
+/***/ }),
+
+/***/ "./src/app/core/notifications/notification.setvice.ts":
+/*!************************************************************!*\
+  !*** ./src/app/core/notifications/notification.setvice.ts ***!
+  \************************************************************/
+/*! exports provided: NotificationService */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "NotificationService", function() { return NotificationService; });
+/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "./node_modules/tslib/tslib.es6.js");
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm5/core.js");
+/* harmony import */ var rxjs__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! rxjs */ "./node_modules/rxjs/_esm5/index.js");
+/* harmony import */ var rxjs_operators__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! rxjs/operators */ "./node_modules/rxjs/_esm5/operators/index.js");
+
+
+
+
+var NotificationService = /** @class */ (function () {
+    function NotificationService() {
+        this._notification = new rxjs__WEBPACK_IMPORTED_MODULE_2__["BehaviorSubject"](null);
+        this.notification$ = this._notification.asObservable()
+            .pipe(Object(rxjs_operators__WEBPACK_IMPORTED_MODULE_3__["publishReplay"])(1), // this tells Rx to cache the latest emitted
+        Object(rxjs_operators__WEBPACK_IMPORTED_MODULE_3__["refCount"])() // and this tells Rx to keep the Observable alive as long as there are any Subscribers
+        );
+    }
+    NotificationService.prototype.notify = function (message) {
+        var _this = this;
+        this._notification.next(message);
+        setTimeout(function () { return _this._notification.next(null); }, 3000);
+    };
+    NotificationService = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
+        Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Injectable"])(),
+        tslib__WEBPACK_IMPORTED_MODULE_0__["__metadata"]("design:paramtypes", [])
+    ], NotificationService);
+    return NotificationService;
+}());
+
+
+
+/***/ }),
+
+/***/ "./src/app/core/server-errors-interceptor/http-errors.interceptor.ts":
+/*!***************************************************************************!*\
+  !*** ./src/app/core/server-errors-interceptor/http-errors.interceptor.ts ***!
+  \***************************************************************************/
+/*! exports provided: HttpErrorInterceptor */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "HttpErrorInterceptor", function() { return HttpErrorInterceptor; });
+/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "./node_modules/tslib/tslib.es6.js");
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm5/core.js");
+/* harmony import */ var rxjs__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! rxjs */ "./node_modules/rxjs/_esm5/index.js");
+/* harmony import */ var rxjs_operators__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! rxjs/operators */ "./node_modules/rxjs/_esm5/operators/index.js");
+
+
+
+
+var HttpErrorInterceptor = /** @class */ (function () {
+    function HttpErrorInterceptor() {
+    }
+    HttpErrorInterceptor.prototype.intercept = function (request, next) {
+        return next.handle(request)
+            .pipe(Object(rxjs_operators__WEBPACK_IMPORTED_MODULE_3__["retry"])(1), Object(rxjs_operators__WEBPACK_IMPORTED_MODULE_3__["catchError"])(function (error) {
+            var newContext = {
+                name: null,
+                appId: null,
+                time: new Date().getTime(),
+                location: null,
+                status: null,
+                message: null,
+                stack: null
+            };
+            if (error.error instanceof ErrorEvent) {
+                newContext.message = error.message;
+            }
+            else {
+                newContext.message = error.message;
+                newContext.status = error.status;
+            }
+            return Object(rxjs__WEBPACK_IMPORTED_MODULE_2__["throwError"])(newContext);
+        }));
+    };
+    HttpErrorInterceptor = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
+        Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Injectable"])()
+    ], HttpErrorInterceptor);
+    return HttpErrorInterceptor;
 }());
 
 
@@ -1886,116 +2337,6 @@ var FooterComponent = /** @class */ (function () {
         tslib__WEBPACK_IMPORTED_MODULE_0__["__metadata"]("design:paramtypes", [_ngxs_store__WEBPACK_IMPORTED_MODULE_2__["Store"], _shared_todo_service__WEBPACK_IMPORTED_MODULE_5__["TodoService"]])
     ], FooterComponent);
     return FooterComponent;
-}());
-
-
-
-/***/ }),
-
-/***/ "./src/app/http-error-handler.service.ts":
-/*!***********************************************!*\
-  !*** ./src/app/http-error-handler.service.ts ***!
-  \***********************************************/
-/*! exports provided: HttpErrorHandler */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "HttpErrorHandler", function() { return HttpErrorHandler; });
-/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "./node_modules/tslib/tslib.es6.js");
-/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm5/core.js");
-/* harmony import */ var rxjs__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! rxjs */ "./node_modules/rxjs/_esm5/index.js");
-/* harmony import */ var _message_service__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./message.service */ "./src/app/message.service.ts");
-
-
-
-
-/** Handles HttpClient errors */
-var HttpErrorHandler = /** @class */ (function () {
-    function HttpErrorHandler(messageService) {
-        var _this = this;
-        this.messageService = messageService;
-        /** Create curried handleError function that already knows the service name */
-        this.createHandleError = function (serviceName) {
-            if (serviceName === void 0) { serviceName = ''; }
-            return function (operation, result) {
-                if (operation === void 0) { operation = 'operation'; }
-                if (result === void 0) { result = {}; }
-                return _this.handleError(serviceName, operation, result);
-            };
-        };
-    }
-    /**
-     * Returns a function that handles Http operation failures.
-     * This error handler lets the app continue to run as if no error occurred.
-     * @param serviceName = name of the data service that attempted the operation
-     * @param operation - name of the operation that failed
-     * @param result - optional value to return as the observable result
-     */
-    HttpErrorHandler.prototype.handleError = function (serviceName, operation, result) {
-        var _this = this;
-        if (serviceName === void 0) { serviceName = ''; }
-        if (operation === void 0) { operation = 'operation'; }
-        if (result === void 0) { result = {}; }
-        return function (error) {
-            // TODO: send the error to remote logging infrastructure
-            console.error(error); // log to console instead
-            var message = (error.error instanceof ErrorEvent) ?
-                error.error.message :
-                "server returned code " + error.status + " with body \"" + error.error + "\"";
-            // TODO: better job of transforming error for user consumption
-            _this.messageService.add(serviceName + ": " + operation + " failed: " + message);
-            // Let the app keep running by returning a safe result.
-            return Object(rxjs__WEBPACK_IMPORTED_MODULE_2__["of"])(result);
-        };
-    };
-    HttpErrorHandler = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
-        Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Injectable"])(),
-        tslib__WEBPACK_IMPORTED_MODULE_0__["__metadata"]("design:paramtypes", [_message_service__WEBPACK_IMPORTED_MODULE_3__["MessageService"]])
-    ], HttpErrorHandler);
-    return HttpErrorHandler;
-}());
-
-/*
-Copyright 2017-2018 Google Inc. All Rights Reserved.
-Use of this source code is governed by an MIT-style license that
-can be found in the LICENSE file at http://angular.io/license
-*/ 
-
-
-/***/ }),
-
-/***/ "./src/app/message.service.ts":
-/*!************************************!*\
-  !*** ./src/app/message.service.ts ***!
-  \************************************/
-/*! exports provided: MessageService */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "MessageService", function() { return MessageService; });
-/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "./node_modules/tslib/tslib.es6.js");
-/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm5/core.js");
-
-
-var MessageService = /** @class */ (function () {
-    function MessageService() {
-        this.messages = [];
-    }
-    MessageService.prototype.add = function (message) {
-        this.messages.push(message);
-    };
-    MessageService.prototype.clear = function () {
-        this.messages = [];
-    };
-    MessageService = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
-        Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Injectable"])({
-            providedIn: 'root',
-        }),
-        tslib__WEBPACK_IMPORTED_MODULE_0__["__metadata"]("design:paramtypes", [])
-    ], MessageService);
-    return MessageService;
 }());
 
 
@@ -2085,14 +2426,13 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "./node_modules/tslib/tslib.es6.js");
 /* harmony import */ var _node_modules_angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../../node_modules/@angular/core */ "./node_modules/@angular/core/fesm5/core.js");
 /* harmony import */ var _angular_common_http__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @angular/common/http */ "./node_modules/@angular/common/fesm5/http.js");
-/* harmony import */ var _http_error_handler_service__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../http-error-handler.service */ "./src/app/http-error-handler.service.ts");
+/* harmony import */ var _core_errors_handler_http_error_handler_service__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../core/errors-handler/http-error-handler.service */ "./src/app/core/errors-handler/http-error-handler.service.ts");
 /* harmony import */ var rxjs_operators__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! rxjs/operators */ "./node_modules/rxjs/_esm5/operators/index.js");
 
 
 
 
 
-//Accept: application/json;odata=verbose;
 var httpOptions = {
     headers: new _angular_common_http__WEBPACK_IMPORTED_MODULE_2__["HttpHeaders"]({
         'Accept': 'application/json;odata=verbose',
@@ -2102,7 +2442,7 @@ var httpOptions = {
 var TodoService = /** @class */ (function () {
     function TodoService(http, httpErrorHandler) {
         this.http = http;
-        this.apiUrl = "api/todos/";
+        this.apiUrl = 'api/todos/';
         this.handleError = httpErrorHandler.createHandleError('TodoService');
     }
     /** get todos */
@@ -2134,7 +2474,7 @@ var TodoService = /** @class */ (function () {
         Object(_node_modules_angular_core__WEBPACK_IMPORTED_MODULE_1__["Injectable"])({
             providedIn: 'root',
         }),
-        tslib__WEBPACK_IMPORTED_MODULE_0__["__metadata"]("design:paramtypes", [_angular_common_http__WEBPACK_IMPORTED_MODULE_2__["HttpClient"], _http_error_handler_service__WEBPACK_IMPORTED_MODULE_3__["HttpErrorHandler"]])
+        tslib__WEBPACK_IMPORTED_MODULE_0__["__metadata"]("design:paramtypes", [_angular_common_http__WEBPACK_IMPORTED_MODULE_2__["HttpClient"], _core_errors_handler_http_error_handler_service__WEBPACK_IMPORTED_MODULE_3__["HttpErrorHandlerService"]])
     ], TodoService);
     return TodoService;
 }());
@@ -2781,3 +3121,4 @@ module.exports = __webpack_require__(/*! C:\Personal projects\TO-DO\WebAppTodo\W
 /***/ })
 
 },[[0,"runtime","vendor"]]]);
+//# sourceMappingURL=main.js.map

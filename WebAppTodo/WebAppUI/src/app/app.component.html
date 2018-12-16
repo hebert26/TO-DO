@@ -1,11 +1,14 @@
 <section class="todoapp">
   <header class="header">
     <h1>To Do List</h1>
-    <app-new-todo></app-new-todo>
+    <app-new-todo></app-new-todo>    
   </header>
   <router-outlet></router-outlet>
+  <div class="notification" *ngIf="showNotification" class="notification">
+      <p>{{ notification }}</p>
+</div>
   <app-footer></app-footer>
-</section>
+</section> 
 <footer class="info">
   <p>Writen by
     <a href="https://twitter.com/Heberth26">Hebert Godoy</a>
@@ -16,3 +19,4 @@
     <a href="https://docs.microsoft.com/en-us/azure/service-fabric/">Azure service fabric</a>  
   </p>
 </footer>
+

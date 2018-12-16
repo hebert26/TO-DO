@@ -4,7 +4,6 @@ using System.Threading.Tasks;
 using CoreAppDemo.Data;
 using CoreAppDemo.Data.Model;
 using Microsoft.EntityFrameworkCore;
-using Microsoft.EntityFrameworkCore.ChangeTracking;
 
 namespace CoreAppDemo.Services
 {
@@ -31,38 +30,37 @@ namespace CoreAppDemo.Services
         public async Task<int> UpdateAsync(Todo todo)
         {
             CheckIfTodoIsNull(todo);
-            return await SaveChangesAsync(todo, EntityState.Modified); 
-        }        
+            return await SaveChangesAsync(todo, EntityState.Modified);
+        }
 
         public async Task<int> ToggleAsync(Todo todo)
-        {  
-            CheckIfTodoIsNull(todo); 
+        {
+            CheckIfTodoIsNull(todo);
             return await SaveChangesAsync(todo, EntityState.Modified);
-        }       
+        }
 
         public async Task<int> RemoveAsync(Todo todo)
-        {  
+        {
             CheckIfTodoIsNull(todo);
-            return await SaveChangesAsync(todo, EntityState.Deleted);         
+            return await SaveChangesAsync(todo, EntityState.Deleted);
         }
 
         public async Task<Todo> FindByIdAsync(int id)
         {
             return await _context.Todos.AsNoTracking().FirstOrDefaultAsync(todo => todo.Id == id);
-        }
+        } 
 
+        public async Task<int> SaveChangesAsync(Todo todo, EntityState entityState)
+        {
+            _context.Entry(todo).State = entityState;
+            return await _context.SaveChangesAsync();
+        }
         private static void CheckIfTodoIsNull(Todo todo)
         {
             if (todo == null)
             {
                 throw new ArgumentException($"{nameof(todo)} can be null.");
             }
-        }
-
-        public async Task<int> SaveChangesAsync(Todo todo, EntityState entityState)
-        { 
-           _context.Entry(todo).State = entityState; 
-          return await  _context.SaveChangesAsync();
         }
     }
 }

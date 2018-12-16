@@ -15,8 +15,7 @@ import { TodoComponent } from './todo/todo.component';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { TodoState } from './store/todo.state';
 import { TodoService } from './shared/todo.service';
-import { HttpErrorHandler } from './http-error-handler.service';
-import { MessageService } from './message.service';
+import { ErrorsModule } from './core';
 let devtools = [];
 
 const routes: Routes = [
@@ -45,12 +44,11 @@ addDevTools();
       TodoState
     ]),
     devtools,
-    NgbModule.forRoot()
+    NgbModule.forRoot(),
+    ErrorsModule
   ],
   providers: [
-    TodoService,
-    MessageService,
-    HttpErrorHandler
+    TodoService
   ],
   bootstrap: [AppComponent]
 })
